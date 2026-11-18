@@ -1,0 +1,37 @@
+{
+ "15-min step | all features": {
+  "pr_auc": 0.4823,
+  "roc_auc": 0.9959,
+  "prevalence": 0.00178
+ },
+ "15-min step | without month, day of week": {
+  "pr_auc": 0.2378,
+  "roc_auc": 0.9903,
+  "prevalence": 0.00178
+ },
+ "DMA-hour | all features": {
+  "pr_auc": 0.2258,
+  "roc_auc": 0.978,
+  "prevalence": 0.00185
+ },
+ "DMA-day | all features": {
+  "pr_auc": 0.0079,
+  "roc_auc": 0.5468,
+  "prevalence": 0.0013
+ },
+ "DMA-day | without month, day of week": {
+  "pr_auc": 0.0044,
+  "roc_auc": 0.5355,
+  "prevalence": 0.0013
+ },
+ "DMA-week | all features": {
+  "pr_auc": 0.0047,
+  "roc_auc": 0.5895,
+  "prevalence": 0.00247
+ },
+ "calendar day (all DMAs) | all features": {
+  "pr_auc": 0.0067,
+  "roc_auc": 0.6435,
+  "prevalence": 0.0017
+ }
+}

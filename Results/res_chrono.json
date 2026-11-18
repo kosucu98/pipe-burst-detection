@@ -1,0 +1,53 @@
+{
+ "rf": {
+  "n_test": 157955,
+  "n_pos": 352,
+  "prevalence": 0.00223,
+  "pr_auc": 0.0064,
+  "roc_auc": 0.5747,
+  "f1_at_0_5": 0.0301,
+  "n_events": 13,
+  "event_auc": 0.709
+ },
+ "xgb": {
+  "n_test": 157955,
+  "n_pos": 352,
+  "prevalence": 0.00223,
+  "pr_auc": 0.0076,
+  "roc_auc": 0.6108,
+  "f1_at_0_5": 0.0241,
+  "n_events": 13,
+  "event_auc": 0.522
+ },
+ "svm": {
+  "n_test": 157955,
+  "n_pos": 352,
+  "prevalence": 0.00223,
+  "pr_auc": 0.0052,
+  "roc_auc": 0.5351,
+  "f1_at_0_5": 0.0276,
+  "n_events": 13,
+  "event_auc": 0.435
+ },
+ "lgbm": {
+  "n_test": 157955,
+  "n_pos": 352,
+  "prevalence": 0.00223,
+  "pr_auc": 0.0089,
+  "roc_auc": 0.5681,
+  "f1_at_0_5": 0.0166,
+  "n_events": 13,
+  "event_auc": 0.555
+ },
+ "cnn": {
+  "n_test": 157955,
+  "n_pos": 352,
+  "prevalence": 0.00223,
+  "pr_auc": 0.0096,
+  "roc_auc": 0.5009,
+  "f1_at_0_5": 0.0079,
+  "n_events": 13,
+  "event_auc": 0.403
+ },
+ "_seconds": 244
+}

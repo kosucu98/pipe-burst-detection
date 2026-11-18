@@ -1,0 +1,43 @@
+{
+ "rf": {
+  "n_test": 212355,
+  "n_pos": 378,
+  "prevalence": 0.00178,
+  "pr_auc": 0.2421,
+  "roc_auc": 0.9905,
+  "f1_at_0_5": 0.1055
+ },
+ "xgb": {
+  "n_test": 212355,
+  "n_pos": 378,
+  "prevalence": 0.00178,
+  "pr_auc": 0.4569,
+  "roc_auc": 0.9959,
+  "f1_at_0_5": 0.051
+ },
+ "svm": {
+  "n_test": 212355,
+  "n_pos": 378,
+  "prevalence": 0.00178,
+  "pr_auc": 0.0473,
+  "roc_auc": 0.9649,
+  "f1_at_0_5": 0.0911
+ },
+ "lgbm": {
+  "n_test": 212355,
+  "n_pos": 378,
+  "prevalence": 0.00178,
+  "pr_auc": 0.2716,
+  "roc_auc": 0.9939,
+  "f1_at_0_5": 0.0225
+ },
+ "cnn": {
+  "n_test": 212355,
+  "n_pos": 378,
+  "prevalence": 0.00178,
+  "pr_auc": 0.0414,
+  "roc_auc": 0.9441,
+  "f1_at_0_5": 0.0268
+ },
+ "_seconds": 377
+}

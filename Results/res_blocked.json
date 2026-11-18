@@ -1,0 +1,298 @@
+{
+ "rf": {
+  "folds": [
+   {
+    "n_test": 211248,
+    "n_pos": 447,
+    "prevalence": 0.00212,
+    "pr_auc": 0.0039,
+    "roc_auc": 0.6277,
+    "f1_at_0_5": 0.021,
+    "n_events": 17,
+    "event_auc": 0.666
+   },
+   {
+    "n_test": 210535,
+    "n_pos": 256,
+    "prevalence": 0.00122,
+    "pr_auc": 0.0018,
+    "roc_auc": 0.4627,
+    "f1_at_0_5": 0.0098,
+    "n_events": 8,
+    "event_auc": 0.537
+   },
+   {
+    "n_test": 216106,
+    "n_pos": 257,
+    "prevalence": 0.00119,
+    "pr_auc": 0.0017,
+    "roc_auc": 0.5495,
+    "f1_at_0_5": 0.0087,
+    "n_events": 8,
+    "event_auc": 0.475
+   },
+   {
+    "n_test": 213672,
+    "n_pos": 449,
+    "prevalence": 0.0021,
+    "pr_auc": 0.0026,
+    "roc_auc": 0.5657,
+    "f1_at_0_5": 0.0,
+    "n_events": 16,
+    "event_auc": 0.504
+   },
+   {
+    "n_test": 208888,
+    "n_pos": 481,
+    "prevalence": 0.0023,
+    "pr_auc": 0.005,
+    "roc_auc": 0.6382,
+    "f1_at_0_5": 0.0269,
+    "n_events": 17,
+    "event_auc": 0.639
+   }
+  ],
+  "pr_auc_mean": 0.003,
+  "prevalence_mean": 0.00179,
+  "roc_auc_mean": 0.5688,
+  "n_events": 66,
+  "event_auc_mean": 0.564
+ },
+ "xgb": {
+  "folds": [
+   {
+    "n_test": 211248,
+    "n_pos": 447,
+    "prevalence": 0.00212,
+    "pr_auc": 0.0029,
+    "roc_auc": 0.5674,
+    "f1_at_0_5": 0.0111,
+    "n_events": 17,
+    "event_auc": 0.6
+   },
+   {
+    "n_test": 210535,
+    "n_pos": 256,
+    "prevalence": 0.00122,
+    "pr_auc": 0.0019,
+    "roc_auc": 0.5554,
+    "f1_at_0_5": 0.0041,
+    "n_events": 8,
+    "event_auc": 0.637
+   },
+   {
+    "n_test": 216106,
+    "n_pos": 257,
+    "prevalence": 0.00119,
+    "pr_auc": 0.0012,
+    "roc_auc": 0.5109,
+    "f1_at_0_5": 0.0009,
+    "n_events": 8,
+    "event_auc": 0.493
+   },
+   {
+    "n_test": 213672,
+    "n_pos": 449,
+    "prevalence": 0.0021,
+    "pr_auc": 0.0022,
+    "roc_auc": 0.4941,
+    "f1_at_0_5": 0.0067,
+    "n_events": 16,
+    "event_auc": 0.551
+   },
+   {
+    "n_test": 208888,
+    "n_pos": 481,
+    "prevalence": 0.0023,
+    "pr_auc": 0.0043,
+    "roc_auc": 0.6185,
+    "f1_at_0_5": 0.0,
+    "n_events": 17,
+    "event_auc": 0.664
+   }
+  ],
+  "pr_auc_mean": 0.0025,
+  "prevalence_mean": 0.00179,
+  "roc_auc_mean": 0.5493,
+  "n_events": 66,
+  "event_auc_mean": 0.589
+ },
+ "svm": {
+  "folds": [
+   {
+    "n_test": 211248,
+    "n_pos": 447,
+    "prevalence": 0.00212,
+    "pr_auc": 0.002,
+    "roc_auc": 0.5203,
+    "f1_at_0_5": 0.0024,
+    "n_events": 17,
+    "event_auc": 0.511
+   },
+   {
+    "n_test": 210535,
+    "n_pos": 256,
+    "prevalence": 0.00122,
+    "pr_auc": 0.0013,
+    "roc_auc": 0.4952,
+    "f1_at_0_5": 0.0066,
+    "n_events": 8,
+    "event_auc": 0.497
+   },
+   {
+    "n_test": 216106,
+    "n_pos": 257,
+    "prevalence": 0.00119,
+    "pr_auc": 0.0012,
+    "roc_auc": 0.4829,
+    "f1_at_0_5": 0.0019,
+    "n_events": 8,
+    "event_auc": 0.415
+   },
+   {
+    "n_test": 213672,
+    "n_pos": 449,
+    "prevalence": 0.0021,
+    "pr_auc": 0.002,
+    "roc_auc": 0.4756,
+    "f1_at_0_5": 0.0,
+    "n_events": 16,
+    "event_auc": 0.415
+   },
+   {
+    "n_test": 208888,
+    "n_pos": 481,
+    "prevalence": 0.0023,
+    "pr_auc": 0.0027,
+    "roc_auc": 0.5142,
+    "f1_at_0_5": 0.0045,
+    "n_events": 17,
+    "event_auc": 0.469
+   }
+  ],
+  "pr_auc_mean": 0.0018,
+  "prevalence_mean": 0.00179,
+  "roc_auc_mean": 0.4976,
+  "n_events": 66,
+  "event_auc_mean": 0.461
+ },
+ "lgbm": {
+  "folds": [
+   {
+    "n_test": 211248,
+    "n_pos": 447,
+    "prevalence": 0.00212,
+    "pr_auc": 0.0032,
+    "roc_auc": 0.5481,
+    "f1_at_0_5": 0.0092,
+    "n_events": 17,
+    "event_auc": 0.608
+   },
+   {
+    "n_test": 210535,
+    "n_pos": 256,
+    "prevalence": 0.00122,
+    "pr_auc": 0.0029,
+    "roc_auc": 0.5884,
+    "f1_at_0_5": 0.0029,
+    "n_events": 8,
+    "event_auc": 0.637
+   },
+   {
+    "n_test": 216106,
+    "n_pos": 257,
+    "prevalence": 0.00119,
+    "pr_auc": 0.0015,
+    "roc_auc": 0.5645,
+    "f1_at_0_5": 0.0033,
+    "n_events": 8,
+    "event_auc": 0.507
+   },
+   {
+    "n_test": 213672,
+    "n_pos": 449,
+    "prevalence": 0.0021,
+    "pr_auc": 0.0023,
+    "roc_auc": 0.5147,
+    "f1_at_0_5": 0.0079,
+    "n_events": 16,
+    "event_auc": 0.478
+   },
+   {
+    "n_test": 208888,
+    "n_pos": 481,
+    "prevalence": 0.0023,
+    "pr_auc": 0.0041,
+    "roc_auc": 0.5899,
+    "f1_at_0_5": 0.0014,
+    "n_events": 17,
+    "event_auc": 0.511
+   }
+  ],
+  "pr_auc_mean": 0.0028,
+  "prevalence_mean": 0.00179,
+  "roc_auc_mean": 0.5611,
+  "n_events": 66,
+  "event_auc_mean": 0.548
+ },
+ "cnn": {
+  "folds": [
+   {
+    "n_test": 211248,
+    "n_pos": 447,
+    "prevalence": 0.00212,
+    "pr_auc": 0.0029,
+    "roc_auc": 0.5887,
+    "f1_at_0_5": 0.0059,
+    "n_events": 17,
+    "event_auc": 0.662
+   },
+   {
+    "n_test": 210535,
+    "n_pos": 256,
+    "prevalence": 0.00122,
+    "pr_auc": 0.0013,
+    "roc_auc": 0.4952,
+    "f1_at_0_5": 0.0031,
+    "n_events": 8,
+    "event_auc": 0.555
+   },
+   {
+    "n_test": 216106,
+    "n_pos": 257,
+    "prevalence": 0.00119,
+    "pr_auc": 0.0015,
+    "roc_auc": 0.5523,
+    "f1_at_0_5": 0.0031,
+    "n_events": 8,
+    "event_auc": 0.645
+   },
+   {
+    "n_test": 213672,
+    "n_pos": 449,
+    "prevalence": 0.0021,
+    "pr_auc": 0.002,
+    "roc_auc": 0.4828,
+    "f1_at_0_5": 0.0046,
+    "n_events": 16,
+    "event_auc": 0.345
+   },
+   {
+    "n_test": 208888,
+    "n_pos": 481,
+    "prevalence": 0.0023,
+    "pr_auc": 0.0027,
+    "roc_auc": 0.5416,
+    "f1_at_0_5": 0.0064,
+    "n_events": 17,
+    "event_auc": 0.374
+   }
+  ],
+  "pr_auc_mean": 0.0021,
+  "prevalence_mean": 0.00179,
+  "roc_auc_mean": 0.5321,
+  "n_events": 66,
+  "event_auc_mean": 0.516
+ },
+ "_seconds": 1685
+}
