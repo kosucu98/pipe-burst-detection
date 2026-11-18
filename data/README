@@ -1,0 +1,18 @@
+# Data folder
+
+The SCADA records and the incident log belong to the Kocaeli Water and Sewerage
+Administration (İSU). They are confidential and are not part of this repository.
+Researchers who wish to use them must apply to İSU directly.
+
+To run the code on these or similar data, place the files here:
+
+- One Excel file per district metered area (DMA), named as in `DMA_FILE_MAP` in
+  `burst_detection_5models.py` (for example `dya1-04.xlsx`). Expected columns
+  (Turkish headers as exported from the utility's SCADA system):
+  `Tarih/Saat` (time stamp), `Giriş Basıncı` (inlet pressure), `Debi` (inlet flow),
+  `Çıkış Basıncı` (outlet pressure) and, in some DMAs, `Sıvı Tespiti` (liquid detection).
+  Native sampling may be 1, 5 or 15 minutes; all series are resampled to 15 minutes.
+- `ARIZALAR.xlsx`: the incident log, five columns in this order: city, DMA name
+  (as in `DMA_FILE_MAP`), report date and time, description, pipe length (km).
+
+Everything in this folder except this file is ignored by git.
