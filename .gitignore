@@ -1,0 +1,19 @@
+# Confidential utility data: never commit
+data/*
+!data/README.md
+
+# Intermediate files (features, scores, plots of the original script)
+work/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
